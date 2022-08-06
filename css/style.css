@@ -1,0 +1,222 @@
+*,
+*:before,
+*:after {
+    box-sizing: inherit;
+}
+
+:root {
+    --color__accent: #a3cb37;
+
+    --field__background: white;
+    --field__background--hover: white;
+    --input__border: rgba(0, 0, 0, 0.42);
+    --input__border--hover: rgba(0, 0, 0, 0.62);
+    --label__color: #555;
+
+    --font__size: 16px;
+    --font__family: Roboto, Arial, sans-serif;
+}
+
+html {
+    box-sizing: border-box;
+}
+
+body {
+    background: #ffffff;
+    font: 20px/24px Arial, Sans-Serif;
+    color: #555;
+    margin: 0;
+}
+
+h1 {
+    text-align: center;
+    font-size: 180%;
+    line-height: 120%;
+    padding: 5% 0;
+}
+
+h2 {
+    text-decoration: underline;
+    line-height: 200%;
+    padding-left: 2%;
+}
+
+h3 {
+    line-height: 110%;
+    padding: 5% 0;
+}
+
+p {
+    padding: 1%;
+}
+
+img {
+    text-align: center;
+    max-width: 100%;
+    height: auto;
+    width: auto;
+}
+
+a {
+    color: #686868;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 120%;
+}
+
+a:hover {
+    color: #A3CB37;
+}
+
+header {
+    border-style: solid;
+    border-width: 5px 0 1px 0;
+    border-color: #f0f0f0;
+    background: #ffffff;
+    margin: 0 auto auto;
+    width: 100%;
+    height: auto;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 3;
+}
+
+#logo {
+    margin: 1px;
+    width: 204px;
+    height: 70px;
+    background: url(../img/LOGO-DUDADOM.jpg) no-repeat center;
+}
+
+nav {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+    align-items: baseline;
+    padding: 10px 0 10px 0;
+    position: relative;
+    z-index: 10;
+}
+
+ul {
+    list-style: none;
+    vertical-align: bottom;
+    padding-inline-start: 0;
+}
+
+nav ul li {
+    display: inline-flex;
+    padding: 15px;
+}
+
+span{
+  height:300px;
+  width:100%;
+}
+.head{
+  transform: scale(1);
+}
+.block{
+  margin:0 auto 0 auto;
+  background-color:#0C0C0C;
+    background: url('http://i.stack.imgur.com/jGlzr.png') no-repeat 20% 60% scroll;
+   position: relative;
+         display:flex;
+  border-left: 2px solid #9c7755;
+  border-top: 2px solid #9c7755;
+  height:300px;
+  width:40px;
+}
+div.stripes{
+
+      transform: rotate(90deg);
+
+      top: 80px;
+}
+div.stripe{
+      transform: rotate(-10deg);
+      top: -100px;
+      left:140px;
+}
+div.stripew{
+      transform: rotate(10deg);
+             top: -400px;
+             right: 140px;
+
+}
+div.stripespfa{
+      transform: rotate(90deg);
+top:-640px;
+height:400px;
+}
+div.stripespfa.crossa{
+      transform: rotate(50.6deg);
+      top: -1180px;
+      right: 10px;
+      height:435px;
+}
+div.stripespfa.crossb{
+  transform: rotate(-50.6deg);
+  top: -1620px;
+  left:10px;
+  height:435px;
+}
+
+div.stripespfr{
+      transform: rotate(5deg);
+top:260px;
+right:  105px;
+}
+div.stripespfl{
+      transform: rotate(-5deg);
+top:560px;
+left:  105px;
+}
+
+div.stripespfp{
+      transform: rotate(90deg);
+top:710px;
+height: 250px;
+}
+div.stripespfa.crossb::after{
+  content: "\2022";
+  position: absolute;
+top: 35px;
+left: 10px;
+font-size:40px;
+}
+div.stripespfa.crossb::before{
+  content: "\2022";
+  position: absolute;
+  top: 395px;
+  left: 10px;
+  font-size:40px;
+}
+div.stripespfa.crossa::after{
+  content: "\2022";
+  position: absolute;
+top: 35px;
+left: 10px;
+font-size:40px;
+}
+div.stripespfa.crossa::before{
+  content: "\2022";
+  position: absolute;
+  top: 395px;
+  left: 10px;
+  font-size:40px;
+}
+
+@media screen and (max-width: 470px) {
+
+}
+
+@media screen and (max-width: 780px) {
+
+
+}
+
+@media screen and (max-width: 1420px) {
+
+}
