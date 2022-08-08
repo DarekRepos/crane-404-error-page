@@ -1,4 +1,4 @@
-** 404 **
+# 404 #
 404 Pages not found
 ** TODO **
 - add mobile responsiveness

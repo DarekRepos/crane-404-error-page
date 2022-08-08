@@ -1,0 +1,628 @@
+*,
+*:before,
+*:after {
+    box-sizing: inherit;
+}
+
+:root {
+    --color__accent: #a3cb37;
+
+    --field__background: white;
+    --field__background--hover: white;
+    --input__border: rgba(0, 0, 0, 0.42);
+    --input__border--hover: rgba(0, 0, 0, 0.62);
+    --label__color: #555;
+
+    --font__size: 16px;
+    --font__family: Roboto, Arial, sans-serif;
+}
+
+html {
+    box-sizing: border-box;
+}
+
+body {
+    background: #ffffff;
+    font: 20px/24px Arial, Sans-Serif;
+    color: #555;
+    margin: 0;
+}
+
+h1 {
+    text-align: center;
+    font-size: 180%;
+    line-height: 120%;
+    padding: 5% 0;
+}
+
+h2 {
+    text-decoration: underline;
+    line-height: 200%;
+    padding-left: 2%;
+}
+
+h3 {
+    line-height: 110%;
+    padding: 5% 0;
+}
+
+p {
+    padding: 1%;
+}
+
+img {
+    text-align: center;
+    max-width: 100%;
+    height: auto;
+    width: auto;
+}
+
+a {
+    color: #686868;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 120%;
+}
+
+a:hover {
+    color: #A3CB37;
+}
+
+header {
+    border-style: solid;
+    border-width: 5px 0 1px 0;
+    border-color: #f0f0f0;
+    background: #ffffff;
+    margin: 0 auto auto;
+    width: 100%;
+    height: auto;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 3;
+}
+
+#logo {
+    margin: 1px;
+    width: 204px;
+    height: 70px;
+    background: url(../img/LOGO-DUDADOM.jpg) no-repeat center;
+}
+
+nav {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+    align-items: baseline;
+    padding: 10px 0 10px 0;
+    position: relative;
+    z-index: 10;
+}
+
+ul {
+    list-style: none;
+    vertical-align: bottom;
+    padding-inline-start: 0;
+}
+
+nav ul li {
+    display: inline-flex;
+    padding: 15px;
+}
+
+
+.head{
+  transform: scale(1);
+  position: absolute;
+    top: 200%;
+    left:20%;
+}
+.block{
+  margin:0 0 0 0;
+  background-color:#0C0C0C;
+    background: url('http://i.stack.imgur.com/jGlzr.png') no-repeat 20% 60% scroll;
+   position: absolute;
+         display:flex;
+  border-left: 2px solid #9c7755;
+  border-top: 2px solid #9c7755;
+  height:300px;
+  width:40px;
+}
+
+/*box 1*/
+
+div.stripeleft{
+      transform: rotate(-10deg);
+      left:140px;
+}
+div.striperight{
+      transform: rotate(10deg);
+             right: 140px;
+}
+div.stripebottom{
+transform: rotate(90deg);
+top:80px;
+right:-21px;
+height:400px;
+}
+div.stripebottom.crossed-left{
+      transform: rotate(50.6deg);
+      top: -60px;
+      right: 10px;
+      height:435px;
+}
+div.stripebottom.crossed-right{
+  transform: rotate(-50.6deg);
+  top: -60px;
+  left:10px;
+  height:435px;
+}
+
+/*box 1  - pins */
+div.stripebottom.crossed-right::after{
+  content: "\2022";
+  position: absolute;
+    top:400px;
+left: 10px;
+font-size:40px;
+}
+div.stripebottom.crossed-right::before{
+  content: "\2022";
+  position: absolute;
+  left: 10px;
+  font-size:40px;
+}
+div.stripebottom.crossed-left::after{
+  content: "\2022";
+  position: absolute;
+  top:400px;
+left: 10px;
+font-size:40px;
+}
+div.stripebottom.crossed-left::before{
+  content: "\2022";
+  position: absolute;
+  left: 10px;
+  font-size:40px;
+}
+
+/*  box 2 */
+div.stripe-second{
+right:-21px;
+top:-120px;
+      transform: rotate(90deg);
+}
+div.stripe-second-right{
+      transform: rotate(5deg);
+      top:-270px;
+right:  90px;
+}
+div.stripe-second-left{
+      transform: rotate(-5deg);
+      top:-270px;
+left:  90px;
+}
+div.stripe-second.crossed-left{
+      transform: rotate(42.6deg);
+      top:-300px;
+      right: 10px;
+      height:400px;
+}
+div.stripe-second.crossed-right{
+  transform: rotate(-42.6deg);
+        top:-300px;
+  left:10px;
+  height:400px;
+}
+/*  box 2 - pins*/
+div.stripe-second-right::after{
+  content: "\2022";
+  position: absolute;
+  left:10px;
+  top:15px;
+font-size:40px;
+}
+div.stripe-second-left::before{
+  content: "\2022";
+  position: absolute;
+left: 10px;
+top:15px;
+  font-size:40px;
+}
+
+/*  box 3 */
+
+div.stripe-third{
+      transform: rotate(90deg);
+      top:-370px;
+      right:-21px;
+height: 250px;
+}
+div.stripe-third-right{
+      transform: rotate(-5deg);
+      top:-520px;
+right:  90px;
+}
+div.stripe-third-left{
+      transform: rotate(1deg);
+      top:-520px;
+left:  90px;
+}
+div.stripe-third.crossed-left{
+      transform: rotate(62.6deg);
+      top:-535px;
+      height:320px;
+z-index: 3
+}
+/*  box 3 - pins*/
+div.stripe-third.crossed-left::after{
+  content: "\2022";
+  position: absolute;
+left: 10px;
+top:20px;
+font-size:40px;
+}
+div.stripe-third.crossed-left::before{
+  content: "\2022";
+  position: absolute;
+  top: 270px;
+left: 10px;
+  font-size:40px;
+}
+/*  box 4 */
+div.stripe-fourth{
+right:-21px;
+top:-640px;
+      transform: rotate(90deg);
+}
+div.stripe-fourth-right{
+      transform: rotate(5deg);
+      top:-770px;
+right:  90px;
+}
+div.stripe-fourth-left{
+      transform: rotate(-5deg);
+      top:-770px;
+left:  90px;
+}
+div.stripe-fourth.crossed-left{
+      transform: rotate(42.6deg);
+      top:-810px;
+      height:375px;
+      z-index: 3;
+}
+div.stripe-fourth.crossed-right{
+  transform: rotate(-42.6deg);
+        top:-810px;
+  height:375px;
+  z-index: 3;
+}
+/*box 4  - pins */
+div.stripe-fourth.crossed-right::after{
+  content: "\2022";
+  position: absolute;
+    top:340px;
+left: 10px;
+font-size:40px;
+}
+div.stripe-fourth.crossed-right::before{
+  content: "\2022";
+  position: absolute;
+  left: 10px;
+  top:25px;
+  font-size:40px;
+}
+div.stripe-fourth.crossed-left::after{
+  content: "\2022";
+  position: absolute;
+  top:340px;
+left: 10px;
+font-size:40px;
+}
+div.stripe-fourth.crossed-left::before{
+  content: "\2022";
+  position: absolute;
+  left: 10px;
+  top:25px;
+  font-size:40px;
+}
+/*  box 5 */
+div.stripe-fifth{
+right:-21px;
+top:-890px;
+height:280px;
+      transform: rotate(90deg);
+
+}
+div.stripe-fifth-right{
+      transform: rotate(-2deg);
+      top:-1020px;
+right:  80px;
+}
+div.stripe-fifth-left{
+      transform: rotate(2deg);
+      top:-1020px;
+left:  80px;
+}
+div.stripe-fifth.crossed-left{
+      transform: rotate(42.6deg);
+      top:-1050px;;
+
+      height:375px;
+}
+div.stripe-fifth.crossed-right{
+  transform: rotate(-42.6deg);
+      top:-1050px;
+  height:375px;
+}
+/*  box 5 - pins*/
+div.stripe-fifth-left::after{
+  content: "\2022";
+  position: absolute;
+left: 10px;
+top:20px;
+font-size:40px;
+}
+div.stripe-fifth-right::after{
+  content: "\2022";
+  position: absolute;
+  top: 20px;
+left: 10px;
+  font-size:40px;
+}
+/*  box 6 */
+div.stripe-sixth{
+right:-21px;
+top:-1120px;
+height:280px;
+      transform: rotate(90deg);
+
+}
+div.stripe-sixth-right{
+      transform: rotate(-7deg);
+      top:-1280px;
+right:  98px;
+}
+div.stripe-sixth-left{
+      transform: rotate(4deg);
+      top:-1280px;
+left:  92px;
+}
+div.stripe-sixth.crossed-right{
+  transform: rotate(-62.6deg);
+      top:-1290px;
+right:-10px;
+  height:335px;
+  z-index: 3;
+}
+/*  box 6 - pins*/
+div.stripe-sixth.crossed-right::after{
+  content: "\2022";
+  position: absolute;
+left: 10px;
+top:20px;
+font-size:40px;
+}
+div.stripe-sixth.crossed-right::before{
+  content: "\2022";
+  position: absolute;
+  top: 290px;
+left: 10px;
+  font-size:40px;
+}
+
+/*  arm */
+
+div.arm-first-stripe{
+  transform: rotate(90deg);
+      top:-1410px;
+right:-10px;
+  height:335px;
+  z-index: 3;
+}
+div.arm-second-stripe{
+  transform: rotate(60deg);
+      top:-1490px;
+right:-10px;
+  height:335px;
+}
+div.arm-third-stripe{
+  transform: rotate(-15deg);
+      top:-1400px;
+left:80px;
+  height:170px;
+  z-index: 3;
+}
+div.arm-fourth-stripe{
+  transform: rotate(80deg);
+      top:-1590px;
+left:250px;
+  height:335px;
+}
+div.arm-fifth-stripe{
+  transform: rotate(55deg);
+      top:-1530px;
+left:240px;
+  height:375px;
+}
+div.arm-sixth-stripe{
+  transform: rotate(88deg);
+      top:-1645px;
+left:570px;
+  height:375px;
+  z-index: -1;
+}
+
+/*  arm - pins*/
+div.arm-first-stripe::after{
+  content: "\2022";
+  position: absolute;
+left: 10px;
+top:280px;
+font-size:40px;
+}
+div.arm-third-stripe::after{
+  content: "\2022";
+  position: absolute;
+left: 10px;
+top:10px;
+font-size:40px;
+}
+div.arm-third-stripe::before{
+  content: "\2022";
+  position: absolute;
+left: 10px;
+top:140px;
+font-size:40px;
+}
+div.arm-fourth-stripe::after{
+  content: "\2022";
+  position: absolute;
+left: 10px;
+top:2px;
+font-size:40px;
+}
+div.arm-fourth-stripe::before{
+  content: "\2022";
+  position: absolute;
+left: 10px;
+top:300px;
+font-size:40px;
+}
+div.arm-fifth-stripe::before{
+  content: "\2022";
+  position: absolute;
+left: 10px;
+top:5px;
+font-size:40px;
+}
+div.arm-sixth-stripe::before{
+  content: "\2022";
+  position: absolute;
+top: 40%;
+left: 10px;
+font-size:40px;
+}
+div.line{
+  position: absolute;
+background-color: black;
+height: 2px;
+width: 500px;
+  z-index: 8;
+  top:-1205px;
+left:365px;
+transform: rotate(90deg);
+
+}
+
+div.line{
+  position: absolute;
+background-color: grey;
+height: 4px;
+width: 500px;
+  z-index: 8;
+  top:-1205px;
+left:365px;
+transform: rotate(90deg);
+}
+
+div.box-line{
+  position: absolute;
+background-color: grey;
+height: 4px;
+
+}
+div.box-line.first{
+  z-index: 8;
+  width: 460px;
+  top:-620px;
+  left:545px;
+  transform: rotate(45deg);
+}
+div.box-line.second{
+  z-index: 7;
+  width: 430px;
+  top:-620px;
+  left:260px;
+  transform: rotate(-50deg);
+}
+div.box-line.first::before{
+    z-index: 10;
+  content: "\2022";
+  position: relative;
+bottom: 10px;
+left: -10px;
+font-size:50px;
+}
+div.box-line.first::after{
+    z-index: 10;
+  content: "\2022";
+  position: relative;
+  top:420px;
+bottom: 10px;
+left: 10px;
+font-size:50px;
+}
+div.box-line.second::before{
+    z-index: 14;
+  content: "\2022";
+  position: relative;
+  top:450px;
+bottom: 10px;
+left: 380px;
+font-size:50px;
+}
+
+div.box{
+  position: absolute;
+background-color: black;
+height: 200px;
+width: 300px;
+  z-index: 5;
+  top:-955px;
+left:455px;
+font-size: 150px;
+background: url(https://img.freepik.com/darmowe-zdjecie/czarne-marmurowe-wzorzyste-tla-tekstury-marmur-z-tajlandii-abstrakcyjne-naturalnych-marmuru-czarne-i-biale-dla-projektu_1253-917.jpg?w=900&t=st=1659978568~exp=1659979168~hmac=b2b4ce703656276a092d177ff133bd14b2df5546846deec68a55361ce3f6d717);
+}
+div.box::after{
+  content: "404";
+  position: absolute;
+vertical-align: middle;
+left: 50%;
+top: 50%;
+transform: translate(-50%, -50%);
+color: white;
+}
+
+div.box-not-found{
+  position: absolute;
+background: url(https://img.freepik.com/darmowe-zdjecie/czarne-marmurowe-wzorzyste-tla-tekstury-marmur-z-tajlandii-abstrakcyjne-naturalnych-marmuru-czarne-i-biale-dla-projektu_1253-917.jpg?w=900&t=st=1659978568~exp=1659979168~hmac=b2b4ce703656276a092d177ff133bd14b2df5546846deec68a55361ce3f6d717);
+height: 200px;
+width: 600px;
+  z-index: 5;
+  top:-455px;
+left:337.5px;
+font-size: 60px;
+}
+div.box-not-found::after{
+  content: "not found";
+  position: absolute;
+vertical-align: middle;
+left: 50%;
+top: 50%;
+transform: translate(-50%, -50%);
+color: white;
+}
+
+@media screen and (max-width: 470px) {
+
+}
+
+@media screen and (max-width: 780px) {
+
+
+}
+
+@media screen and (max-width: 1420px) {
+
+}
