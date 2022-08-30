@@ -10,5 +10,5 @@ see -> [here](https://darekrepos.github.io/crane-404-error-page/)
 
 ## pictures
 
-[https://www.freepik.com/photos/tile-texture](Tile texture photo created by tirachard - www.freepik.com)
-[https://www.freepik.com/photos/pine-wood](Pine wood photo created by yingyang - www.freepik.com)
+[Tile texture photo created by tirachard - www.freepik.com](https://www.freepik.com/photos/tile-texture)
+[Pine wood photo created by yingyang - www.freepik.com](https://www.freepik.com/photos/pine-wood)
