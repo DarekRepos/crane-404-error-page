@@ -1,8 +1,5 @@
 # 404 #
 404 Pages not found
-** TODO **
-- add mobile responsiveness
-- add animation
 
 ## website page
 see -> [here](https://darekrepos.github.io/crane-404-error-page/)
