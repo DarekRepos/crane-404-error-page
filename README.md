@@ -22,6 +22,8 @@ Feel free to explore the code and assets in this repository, and don't hesitate 
 
 ## 💟 Preview of the Webpage
 
+![404-page](https://github.com/sidhartha2002/crane-404-error-page/assets/73163725/83769a20-6c10-415c-a70e-7ff2d253fb6a)
+
 For a live demo, visit [portfolio.darekduda.pl/404-page](https://portfolio.darekduda.pl/crane-404-error-page/)
 
 We hope our custom 404 page enhances your users' experience on your website. If you find it useful, please give us a star ⭐!
