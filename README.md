@@ -30,5 +30,10 @@ We hope our custom 404 page enhances your users' experience on your website. If 
 
 ## 🏷️ Picture credit
 
-- [Tile texture photo created by tirachard - www.freepik.com](https://www.freepik.com/photos/tile-texture)
-- [Pine wood photo created by yingyang - www.freepik.com](https://www.freepik.com/photos/pine-wood)
+- Tile texture photo created by tirachard - www.freepik.com
+
+[<img src="assets/stone.jpg" width="500" height="300">](https://www.freepik.com/search?author=854473&authorSlug=tirachard&format=author&query=black)
+
+- Pine wood photo created by yingyang - www.freepik.com
+
+[<img src="assets/wood.avif" width="500" height="300">](https://www.freepik.com/photos/pine-wood)
